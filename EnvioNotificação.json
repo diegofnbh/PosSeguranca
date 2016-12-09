@@ -1,0 +1,35 @@
+{
+	"id": "747ede73-535c-b7e2-f144-8c27775778a1",
+	"name": "Segurança",
+	"description": "",
+	"order": [
+		"2f4ef116-9702-b54f-4b05-56c5ca5f48ba"
+	],
+	"folders": [],
+	"timestamp": 1480982307562,
+	"owner": "925572",
+	"public": false,
+	"requests": [
+		{
+			"id": "2f4ef116-9702-b54f-4b05-56c5ca5f48ba",
+			"headers": "Authorization: key=AAAAB_AiILY:APA91bEiWOi0MyvRp-aI-0f4ThJ2KNRtCHHEbtKypgjk-Pf7mA30Azu6bcFCUzicd8GfAy_JZyAYt2S_q4lppCXUarA-m2F5y4iPkpYUtUXX8RcSvSpx5SZdEzuMHz3ng7ukaHttCH0N\nContent-Type: application/json\n",
+			"url": "https://fcm.googleapis.com/fcm/send",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "747ede73-535c-b7e2-f144-8c27775778a1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://fcm.googleapis.com/fcm/send",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1480982681958,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \"registration_ids\": [\"fMRtb4sVy9o:APA91bHK4T-Mn08Vhtlh0lRElLT30d0x8expOfcmvIfVJ0TKQHXIslbarKAYNpXsetbz6RXCo4QNloBe3xMrCE4hdAPgiO8Yyu130qbiNBBbBttpwkCXRV4gdkwtlARwCB5gDjaecs47\"],\r\n    \"data\": {\r\n        \"title\": \"Titulo de teste notificacao\",\r\n        \"message\": \"Teste do grupo do Diego.\"\r\n    }\r\n}"
+		}
+	]
+}
